@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>oduncalma</class>
+ <widget class="QDialog" name="oduncalma">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>995</width>
+    <height>627</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>50</y>
+     <width>341</width>
+     <height>261</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QLabel" name="label_2">
+      <property name="styleSheet">
+       <string notr="true">font: 700 10pt &quot;Segoe UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Tüm Kitaplar</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QTableView" name="tw_kitaplar"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>340</y>
+     <width>341</width>
+     <height>271</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_3">
+    <item>
+     <widget class="QLabel" name="label_3">
+      <property name="styleSheet">
+       <string notr="true">font: 700 10pt &quot;Segoe UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Ödünç Alınan Kitaplar Listesi</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QTableView" name="tw_oduncAlinanKitaplar"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="btn_oduncAl">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>510</y>
+     <width>75</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 10pt &quot;Segoe UI&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Ödünç Al</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>50</y>
+     <width>341</width>
+     <height>261</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="styleSheet">
+       <string notr="true">font: 700 10pt &quot;Segoe UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Tüm Üyeler</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QTableView" name="tw_uyeler"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>380</y>
+     <width>135</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_4">
+    <item>
+     <widget class="QLineEdit" name="le_uyeNo">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="le_kitapNo">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QDateEdit" name="de_oduncAlmaTarihi">
+      <property name="date">
+       <date>
+        <year>2023</year>
+        <month>1</month>
+        <day>1</day>
+       </date>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>380</y>
+     <width>117</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_5">
+    <item>
+     <widget class="QLabel" name="label_4">
+      <property name="styleSheet">
+       <string notr="true">font: 700 10pt &quot;Segoe UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Üye No:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_5">
+      <property name="styleSheet">
+       <string notr="true">font: 700 10pt &quot;Segoe UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Kitap No:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_6">
+      <property name="styleSheet">
+       <string notr="true">font: 700 10pt &quot;Segoe UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Ödünç Alma Tarihi</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>10</y>
+     <width>201</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 12pt &quot;Segoe UI&quot;;
+color: rgb(255, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>ÖDÜNÇ ALMA İŞLEMLERİ</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
